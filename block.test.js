@@ -23,6 +23,7 @@ describe("Block", () => {
 
   describe("genesis()", () => {
     const genesisblock = Block.genesis();
+    // console.log("genesis block:", genesisblock);
     it("returns a block instance", () => {
       expect(genesisblock instanceof Block).toEqual(true);
     });
